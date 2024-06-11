@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="script.css">
+ 
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="./images/logo_big.png" alt="" class="header-img">
+            <ul class="header-list">
+                <li class="header-icon"><a href="">Home</a></li>
+                <li class="header-icon"><a href="">About</a></li>
+                <li class="header-icon"><a href="">Projects</a></li>
+                <li class="header-icon"><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section class="get_details">
+        <h1 class="all-h1">WEATHER APP</h1>
+        <div class="user_detail">
+            <input type="text" id="city" placeholder="Enter Name of the city" required>
+            <button class="Search-btn"> Search</button>
+        </div>
+    </section>
+
+
+    <section class="showing_data">
+        <h1 class="all-h2">WEATHER & FORCAST DETAILS</h1>
+
+        <h2 class="all-h4">City Name - <span id="cityName">NaN</span></h2>
+        <h2 class="all-h4">Lattitude - <span id="lattitude">NaN</span></h2>
+        <h2 class="all-h4">Longitude - <span id="longitude">NaN</span></h2>
+        <h2 class="all-h4">weather Description - <span id="weatherDescription">NaN </span></h2>
+        <h2 class="all-h4">Temperature - <span id="temperature">NaN </span></h2>
+        <h2 class="all-h4">Humidity - <span id="humidity">NaN </span></h2>
+        <h2 class="all-h4">Pressure - <span id="pressure">NaN </span></h2>
+        <h2 class="all-h4">forecast Description - <span id="forecastDescription">NaN</span></h2>
+        <h2 class="all-h4">Wind Speed - <span id="windspeed">NaN</span></h2>
+
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
